@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ir.harmonyapp.gity.naildesign">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/iconpng"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/iconpng"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="ir.harmonyapp.gity.naildesign.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="ir.harmonyapp.gity.naildesign.Lak"
+            android:label="@string/lak" />
+        <activity
+            android:name="ir.harmonyapp.gity.naildesign.Health"
+            android:label="@string/health" />
+        <activity
+            android:name="ir.harmonyapp.gity.naildesign.Design"
+            android:label="@string/design" />
+        <activity
+            android:name="ir.harmonyapp.gity.naildesign.Favorite"
+            android:label="@string/favorite" />
+        <activity
+            android:name="ir.harmonyapp.gity.naildesign.AboutUs"
+            android:label="@string/about" />
+        <activity
+            android:name="ir.harmonyapp.gity.naildesign.Main"
+            android:label="@string/title_activity_main"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="ir.harmonyapp.gity.naildesign.text" />
+        <activity
+            android:name="ir.harmonyapp.gity.naildesign.GalleyNail"
+            android:label="@string/gallerynail" />
+        <activity android:name="ir.harmonyapp.gity.naildesign.PictureBrows"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF4081</color>
+    <color name="colorPrimaryDark">#be2358</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="navbg">#f7c0d3</color>
+    <color name="bgrowfavorite">#d9e793</color>
+    <color name="txtfavorite">#186e49</color>
+    <color name="navbg_selected">#FF4081</color>
+    <color name="iconanditemselected_nonselected">#ffffff</color>
+
+
+</resources>

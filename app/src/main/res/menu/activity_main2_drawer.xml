@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/lak"
+
+            android:title="لاک ناخن" />
+        <item
+            android:id="@+id/health"
+
+            android:title="سلامت ناخن" />
+        <item
+            android:id="@+id/design"
+
+            android:title="طراحی ناخن" />
+        <item
+            android:id="@+id/favorite"
+
+            android:title="علاقه مندی ها" />
+
+    </group>
+
+    <item android:title="کلیات برنامه">
+        <menu>
+
+            <item
+                android:id="@+id/about"
+                android:icon="@drawable/ic_info_black_24dp"
+                android:title="درباره ما" />
+            <item
+                android:id="@+id/exit"
+                android:icon="@drawable/ic_exit_to_app_red_400_24dp"
+                android:title="خروج" />
+        </menu>
+    </item>
+
+</menu>
